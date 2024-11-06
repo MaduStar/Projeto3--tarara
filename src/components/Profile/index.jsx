@@ -5,7 +5,6 @@ export default function Profile(props){
         <div className={styles.container}>
             {/* imagem do usuário */}
             <img src={props.img} />
-            <hr />
             {/* nome do usuário */}
             <h1>{props.name}</h1>
 
